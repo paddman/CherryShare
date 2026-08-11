@@ -1,0 +1,25 @@
+# Go
+/bin/
+*.test
+*.out
+coverage.out
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local data
+/data/
+/tmp/
+
+# Web
+node_modules/
+.next/
+dist/
